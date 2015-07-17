@@ -8,11 +8,20 @@ public class FizzbuzzTest {
     private Fizzbuzz fizzbuzz;
 
     @Test
-    public void ShouldReturnTrueIFNumberMultipleOfThree()
+    public void ShouldReturnFizzIFNumberMultipleOfThree()
     {
         fizzbuzz= new Fizzbuzz();
-        boolean result=fizzbuzz.IsNumberMultipleOfThree(6);
-        assertEquals(true,result);
+        String result=fizzbuzz.IsFizzBuzzBlab(6);
+        assertEquals("Fizz",result);
+
+    }
+
+    @Test
+    public void ShouldReturnBuzzIFNumberMultipleOfFive()
+    {
+        fizzbuzz= new Fizzbuzz();
+        String result=fizzbuzz.IsFizzBuzzBlab(10);
+        assertEquals("Buzz",result);
 
     }
 
