@@ -35,8 +35,8 @@
       <file leaf-file-name="FizzbuzzTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/pathashala/FizzbuzzTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6127886">
-              <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.9325044">
+              <caret line="35" column="37" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -196,7 +196,7 @@
       <recent name="com.pathashala" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FizzbuzzTest">
+  <component name="RunManager" selected="JUnit.FizzbuzzTest.ShouldReturnBlabIFNumberNotMultipleOfThreeOrFive">
     <configuration default="false" name="FizzbuzzTest.ShouldReturnTrueIFNumberMultipleOfThree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -237,6 +237,32 @@
       <option name="MAIN_CLASS_NAME" value="com.pathashala.FizzbuzzTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="FizzbuzzTest.ShouldReturnBlabIFNumberNotMultipleOfThreeOrFive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.pathashala.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="projnew" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.pathashala" />
+      <option name="MAIN_CLASS_NAME" value="com.pathashala.FizzbuzzTest" />
+      <option name="METHOD_NAME" value="ShouldReturnBlabIFNumberNotMultipleOfThreeOrFive" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -396,14 +422,16 @@
       <listeners />
       <method />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="JUnit.FizzbuzzTest.ShouldReturnTrueIFNumberMultipleOfThree" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.FizzbuzzTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.FizzbuzzTest.ShouldReturnBlabIFNumberNotMultipleOfThreeOrFive" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.FizzbuzzTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.FizzbuzzTest.ShouldReturnTrueIFNumberMultipleOfThree" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.FizzbuzzTest.ShouldReturnBlabIFNumberNotMultipleOfThreeOrFive" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.FizzbuzzTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.FizzbuzzTest.ShouldReturnTrueIFNumberMultipleOfThree" />
       </list>
     </recent_temporary>
   </component>
@@ -468,8 +496,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/pathashala/FizzbuzzTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6127886">
-          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.9325044">
+          <caret line="35" column="37" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

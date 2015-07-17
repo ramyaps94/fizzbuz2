@@ -23,10 +23,17 @@ public class FizzbuzzTest {
 
     }
     @Test
-    public void ShouldReturnBuzzIFNumberMultipleOfThreeFive() {
+    public void ShouldReturnFizzBuzzIFNumberMultipleOfThreeFive() {
         fizzbuzz = new Fizzbuzz();
         String result = fizzbuzz.IsFizzBuzzBlab(15);
         assertEquals("FizzBuzz", result);
+
+    }
+    @Test
+    public void ShouldReturnBlabIFNumberNotMultipleOfThreeOrFive() {
+        fizzbuzz = new Fizzbuzz();
+        String result = fizzbuzz.IsFizzBuzzBlab(19);
+        assertEquals("Blab", result);
 
     }
 
